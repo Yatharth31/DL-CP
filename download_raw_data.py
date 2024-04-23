@@ -7,7 +7,7 @@ import shutil
 
 
 # KNMI operational test key from https://developer.dataplatform.knmi.nl/get-started#make-api-calls
-key = os.getenv('KNMI_API_KEY')
+key = "eyJvcmciOiI1ZTU1NGUxOTI3NGE5NjAwMDEyYTNlYjEiLCJpZCI6ImQwNDgyYTU2OGYxMzQ5ZDI4NjU1MjQ1N2YzOTNkYmFlIiwiaCI6Im11cm11cjEyOCJ9"
 def get_radar_data(api_key, tstamp,dirloc):
     url = 'https://api.dataplatform.knmi.nl/open-data/v1/datasets/radar_reflectivity_composites/versions/2.0/files/RAD_NL25_PCP_NA_'+tstamp+'.h5/url'
     headers = {'Authorization': api_key}
