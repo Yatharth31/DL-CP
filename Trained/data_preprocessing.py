@@ -63,7 +63,7 @@ gl = []
 maxp = -1
 minp = sys.maxsize
 for i in range(0, 5725):
-    no_bad = 0;
+    no_bad = 0
     for j in range(0, 20):
         sum_fr = np.sum(Radar2[i][j])
         if sum_fr<n25 or sum_fr>n75:
