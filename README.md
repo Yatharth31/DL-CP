@@ -1,4 +1,4 @@
-# UNet with Axial Transformer : A Neural Weather Model for Precipitation Nowcastin
+# UNet with Axial Transformer : A Neural Weather Model for Precipitation Nowcasting
 
 ## Links:
 
